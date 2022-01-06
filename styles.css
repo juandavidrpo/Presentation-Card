@@ -1,0 +1,41 @@
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.card {
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+  background: url(https://cdn.pixabay.com/photo/2020/02/15/14/19/network-4851079_960_720.jpg);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid;
+}
+
+.photo {
+  width: 30%;
+  border-radius: 100%;
+  border-style: solid ; 
+  border-color: whitesmoke;
+}
+
+.icons img {
+  width: 40px;
+  border-radius: 100%;
+  margin: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icons img:hover {
+  transform: scale(1.1);
+}
+
+.info {
+  color: white;
+}
